@@ -11,3 +11,10 @@ An Arduino-based GPS decoder written in .NET C#. Tested with the EM-406A GPS mod
 * Include the .cs files in a sample project, changing the SERIAL_PORT constant in GPSTest.cs to whatever your Arduino's serial port is
 * run the program
 
+Currently, you can get the following information from the reader:
+* Latitude and Longitude
+* Date and time
+* Altitude
+* Course
+* Speed
+* Number of visible satellites
